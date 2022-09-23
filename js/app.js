@@ -17,7 +17,8 @@ export default class Button extends React.Component {
         return ReactElement(
             'button',
             {},
-            'Super Botón'
+            // Elemento dentro de otro
+            ReactElement('div', {},'Super Botón')
         )
     }
 }
